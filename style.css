@@ -75,17 +75,13 @@ ul{
 }
 .divider{
     margin-top:24px;
-    margin-bottom:24px;
+    margin-bottom:30px;
 }
-.divider:before,
-.divider:after{
-    content:"";
+.divider > *{
+    font-size: 20px;
     display: inline-block;
-    width:20px;
-    height:20px;
-    border-radius:20px;
-    background-color:var(--color1);
-    margin-right:10px;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 .flex{
     display: flex;
